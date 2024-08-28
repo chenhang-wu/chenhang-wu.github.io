@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Chenhang Wu（吴琛杭）"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  pronouns         : # example: "he/his"  
+  bio              : "PhD student in sociology"
+  location         : "China"
+  employer         : "Nanjing University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "wuchenhang0203@qq.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
