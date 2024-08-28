@@ -1,73 +1,73 @@
-#欢迎来到杰基尔！
+# Welcome to Jekyll!
 #
-#此配置文件用于影响整个站点的设置，值
-#您只需设置一次，之后就很少需要编辑了。
-#由于技术原因，当您使用
-# `jekyll serve -l -H localhost `。如果您更改此文件，请重新启动
-#服务器进程。
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-#基本网站设置
-现场                   : “恩-美”
-标题                    : "您的姓名/网站名称"
-标题_分隔符          : "-"
-名字                     : &名称“你的名字”
-描述              : &描述“个人描述”
-全球资源定位器(Uniform Resource Locator)                      : https://academicpages.github.io#您站点的基本主机名和协议，例如“https://mmistakes.github.io”
-baseurl                  : "" #您的站点的子路径，例如“/blog”
-仓库               : " academic pages/academic pages . github . io "
+# Basic Site Settings
+locale                   : "en-US"
+title                    : "Your Name / Site Title"
+title_separator          : "-"
+name                     : &name "Your Name"
+description              : &description "personal description"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
 
-# Site Author -以下控件控制在侧栏上作为作者内容的一部分出现的内容。
-#如果字段为空，图标和链接将不会出现，否则将会显示。
-#可以通过编辑/_includes/author-profile.html进行额外的自定义
-作者:
-  #传记信息
-化身           : " profile.png "
-名字             : ”吴(吴琛杭)"
-代词         : #示例:“他/他的”
-个人简历              : “社会学博士生”
-位置         : “中国”
-雇主         : “南京大学”
-上呼吸道感染              : #网址
-电子邮件            : " wuchenhang0203@qq.com " 
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
+  uri              : # URL
+  email            : "none@example.org" 
 
-  #学术网站
-arxiv            : # URL -使用您个人资料的正确链接进行更新
-googlescholar    : "https://scholar.google.com/citations？user=PS_CX0AAAAAJ "
-冲击故事      : #网址
-逆戟鲸            : " http://orcid . org/yourrocidurl "
-语义的         : #网址
-pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/？term=john+snow "
-研究之门     : #网址
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  impactstory      : # URL
+  orcid            : "http://orcid.org/yourorcidurl"
+  semantic         : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
 
-  #存储库和软件开发
-比特桶        : # Username -在网站上更新您的用户名
-密码笔          : #用户名
-滴水不漏         : #用户名
-开源代码库           : “学术网页”
-卡格尔           : #用户名
-stackoverflow    : #用户编号或用户编号和名称(即使用“1”或“1/jeff-atwood”)
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "academicpages"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
-  #社交媒体
-蓝天          : " bsky.app " #将此替换为您的蓝天用户名
-脸谱网         : #用户名
-闪烁（光）           : #用户名
-坚定的       : #用户名
-好阅读        : #用户名
-google_plus      : #用户名
-键盘          : #用户名
-instagram        : #用户名
-lastfm           : #用户名
-商务化人际关系网         : #用户名
-乳齿象         : #网址
-媒介           : #网址
-拼趣        : #用户名
-声音云       : #用户名
-蒸汽            : #用户名
-电报         : #网址
-微博客           : #用户名
-推特          : # X/Twitter的用户名
-藤             : #用户名
-微博            : #用户名
+  # Social media
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
